@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Birthday Emails</title>
+</head>
+<body>
+    <div>
+        <h1> Automatic Birthday Emails</h1>
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+        
+            <input type="text" name="name" required placeholder="Your Name">
+            <input type="text" name="recipient" required placeholder="Recepient's Name">
+            <input type="email" name="email" required placeholder="Email Of Recepient">
+            <input type="date" name="birthdate" required placeholder="Birthdate">
+            <textarea name="message" required placeholder="Birthday Message (if left blank we will send a simple Happy Birthday to recipient)"></textarea>
+            <div class="h-captcha" data-captcha="true"></div>
+            <button type="submit">Submit Form</button>
+        
+        </form>        
+    </div>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+</body>
+</html>
