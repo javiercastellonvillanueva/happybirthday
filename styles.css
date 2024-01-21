@@ -4,18 +4,18 @@
   }
 
 form{
-  display: flex;      /* This will create a flex container */
-  flex-direction: column; /* This will make the flex items stack vertically */
-  align-items: flex-start; /* This aligns the flex items to the start of the flex container */
-  width: 100%;       /* Optional: This makes the form take up the full width of its container */
-  max-width: 600px;  /* Optional: This prevents the form from getting too wide on larger screens */
-  margin: 0 auto;    /* Optional: This centers the form in the viewport */
-  gap: 10px; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  gap: 10px;
 }
 
 textarea {
-  width: 80%;    /* Specifies the width of the textarea; could also be in pixels, ems, etc. */
-  height: 60%;  /* Specifies the height of the textarea */  /* Allows the user to resize both horizontally and vertically (optional) */
+  width: 80%;
+  height: 60%;
   resize: none;
 }
   
