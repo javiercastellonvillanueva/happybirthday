@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automatic Birthday Emails</title>
+    <title>automatic birthday emails</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div>
-        <h1> Automatic Birthday Emails</h1>
+        <h1> automatic birthday emails</h1>
+        <h3> so you never forget to tell your loved ones happy birthday </h3>
         <form action="https://api.web3forms.com/submit" method="POST">
 
             <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
         
-            <input type="text" name="name" required placeholder="Your Name">
-            <input type="text" name="recipient" required placeholder="Recepient's Name">
-            <input type="email" name="email" required placeholder="Email Of Recepient">
+            <input type="text" name="name" required placeholder="your name">
+            <input type="text" name="recipient" required placeholder="recepient's name">
+            <input type="email" name="email" required placeholder="email of recepient">
+            <label for="birthdate">recipient's birthday</label>
             <input type="date" name="birthdate" required placeholder="Birthdate">
-            <textarea name="message" required placeholder="Birthday Message (if left blank we will send a simple Happy Birthday to recipient)"></textarea>
+            <textarea name="message" required placeholder="birthday message (if left blank we will send a simple happy birthday to recipient)"></textarea>
             <div class="h-captcha" data-captcha="true"></div>
             <button type="submit">Submit Form</button>
         
