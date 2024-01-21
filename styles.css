@@ -15,7 +15,7 @@ form{
 
 textarea {
   width: 80%;    /* Specifies the width of the textarea; could also be in pixels, ems, etc. */
-  height: 200px;  /* Specifies the height of the textarea */  /* Allows the user to resize both horizontally and vertically (optional) */
+  height: 60%;  /* Specifies the height of the textarea */  /* Allows the user to resize both horizontally and vertically (optional) */
   resize: none;
 }
   
